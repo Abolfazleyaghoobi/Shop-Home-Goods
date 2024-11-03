@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "yekan";
+  src: url("../../fonts/YekanBakh-Medium.ttf") format(truetype);
+}
+* {
+  font-family: "yekan";
+}
+.dir-ltr {
+  direction: ltr;
+}
+.dir-rtl {
+  direction: rtl;
+}
+.intro-text {
+  width: 100%;
+  background: #658c4a;
+  padding: 1rem 7.5rem;
+}
+.search-And-Logo {
+  margin-top: 4px;
+}
+.imgLogo {
+  width: 10%;
+}
+.search-Box {
+  border-radius: 10px;
+  width: 50%;
+  border: 0.5px solid #9a9a9aaf;
+  
+}
+.search-Box input {
+  width: 90%;
+  /* border: 1px solid #9a9a9aaf; */
+  border: none;
+  outline: none;
+  padding: 5px 2px;
+  font-size: 17px;
+  border-radius: 10px;
+
+  color: #545454;
+}
+.icon-search {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  padding: 4px 25px;
+  width: 2%;
+  background: rgb(216, 216, 216);
+}
+.icon-search > i {
+  padding-top: 6px;
+  color: #656565af;
+}
+.login-Box {
+  padding-top: 10px;
+  text-align: center;
+  width: 16%;
+}
+.login-Box > i {
+
+  font-size: 20px;
+  margin: 0 15px;
+  cursor: pointer;
+}
