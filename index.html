@@ -8,6 +8,7 @@
       href="./assets/styles/style-bootstrap/bootstrap.rtl.min.css"
     />
     <link rel="stylesheet" href="./assets/styles/main style/style.css" />
+    <link rel="stylesheet" href="./assets/styles/main style/breakPoint.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -29,7 +30,9 @@
         </h5>
       </div>
       <nav class="container">
-        <div class="search-and-menu dir-ltr">
+      
+        <!--! this part is tablet and descktap -->
+        <div class="search-and-menu dir-ltr d-none d-md-block">
           <!--! this pard is menu and search input -->
           <div
             class="search-And-Logo d-flex justify-content-between align-items-center"
@@ -50,15 +53,24 @@
               </div>
             </div>
             <div
-              class="login-Box d-flex justify-content-center align-items-center"
+              class="login-Box d-flex justify-content-center align-items-center "
             >
               <i class="bi bi-person fs-4"></i>
               <i class="bi bi-bag fs-5"></i>
             </div>
           </div>
           <!-- this part is site menu bar -->
-          <div class="menuBox">
-         
+          <div class="menuBox mt-3 mx-auto ">
+            <ul class="p-0 d-flex flex-row-reverse flex-wrap justify-content-center">
+              <li><a class="text-decoration-none" href="#">جدیدترین ها</a></li>
+              <li><a class="text-decoration-none" href="#">لباس</a></li>
+              <li><a class="text-decoration-none" href="#">لوازم خانگی</a></li>
+              <li><a class="text-decoration-none" href="#">حمام</a></li>
+              <li><a class="text-decoration-none" href="#">رخت خواب</a></li>
+              <li><a class="text-decoration-none" href="#">ملافه</a></li>
+              <li><a class="text-decoration-none" href="#">لوازم جانبی</a></li>
+              <li><a class="text-decoration-none" href="#">ظروف</a></li>
+            </ul>
           </div>
         </div>
       </nav>
