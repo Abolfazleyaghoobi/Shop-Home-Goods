@@ -21,7 +21,7 @@
   background: #658c4a;
   padding: 1rem 7.5rem;
 }
-
+زمزم
 .search-And-Logo {
   margin-top: 4px;
 }
@@ -69,9 +69,9 @@
   cursor: pointer;
 }
 /* this part style is menu */
-.menuBox{
+/* .menuBox{
 
-}
+} */
 .menuBox>ul{
 /* background: red; */
   list-style-type: none;
@@ -87,4 +87,15 @@
 margin-right: 15px;
 
 
+}
+/* this part is menu and search box Mobile */
+.right-logo-sinup{
+  padding-top: 5px;
+}
+.right-logo-sinup>i{
+  
+  margin: 0 10px;
+}
+.imgq{
+  width: 100px;
 }
