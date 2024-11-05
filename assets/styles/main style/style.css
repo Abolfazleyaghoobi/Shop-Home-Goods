@@ -85,8 +85,15 @@
   /* border-right:0.5px solid gray; ;
   border-left:0.5px solid gray; ; */
 margin-right: 15px;
+color: #333333;
+padding: 4px;
+border-radius: 6px;
+transition: all 0.3s;
 
-
+}
+.menuBox>ul>li>a:hover{
+  background-color: #333333;
+  color: white;
 }
 /* this part is menu and search box Mobile */
 .right-logo-sinup{
