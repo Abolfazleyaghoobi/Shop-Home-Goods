@@ -9,7 +9,11 @@
 * {
   font-family: "yekan";
 }
+/* strat style utility class */
+.transation {
+ transition: all .3s ease;
 
+}
 .dir-ltr {
   direction: ltr;
 }
@@ -21,7 +25,7 @@
   background: #658c4a;
   padding: 1rem 7.5rem;
 }
-زمزم
+
 .search-And-Logo {
   margin-top: 4px;
 }
@@ -64,14 +68,18 @@
 }
 .login-Box > i {
 
-  font-size: 20px;
+  /* font-size: 30px; */
   margin: 0 15px;
   cursor: pointer;
-}
-/* this part style is menu */
-/* .menuBox{
 
-} */
+}
+.login-Box>i:hover{
+ transform: scale(1.2);
+ color: rgb(26, 182, 213);
+text-shadow:0 6px 1px red ;
+ 
+}
+
 .menuBox>ul{
 /* background: red; */
   list-style-type: none;
@@ -96,13 +104,20 @@ transition: all 0.3s;
   color: white;
 }
 /* this part is menu and search box Mobile */
-.right-logo-sinup{
+.icon-sinup{
   padding-top: 5px;
+ 
 }
-.right-logo-sinup>i{
-  
-  margin: 0 10px;
+.icon-sinup>i{
+  margin-inline:12px 0 ;
+  transition: all 0.3s linear; 
 }
+.icon-sinup>i:hover{
+transform: scale(1.2); 
+}
+
+
+
 .imgq{
   width: 100px;
 }
