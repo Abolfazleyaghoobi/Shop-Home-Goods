@@ -138,3 +138,34 @@
 
   color: #545454;
 }
+.names-product{
+  display: flex;
+padding: 0.5rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+}
+.u-none{
+  list-style-type: none;
+}
+.u-none>li{
+  padding: 8px 0.5rem;
+  margin: 5px 0;
+  
+
+
+}
+.u-none>li>a{
+  font-family: "yekanb";
+display: block;
+padding: 5px;
+  color: black;
+transition: all 0.1s linear; 
+border-radius: 5px;
+}
+.u-none>li>a:hover{
+  color: white;
+  background: #000;
+
+}
+
