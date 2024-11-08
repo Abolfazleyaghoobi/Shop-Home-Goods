@@ -11,8 +11,7 @@
 }
 /* strat style utility class */
 .transation {
- transition: all .3s ease;
-
+  transition: all 0.3s ease;
 }
 .dir-ltr {
   direction: ltr;
@@ -24,6 +23,10 @@
   width: 100%;
   background: #658c4a;
   padding: 1rem 7.5rem;
+ 
+}
+.intro-text>h5{
+  color: white;
 }
 
 .search-And-Logo {
@@ -36,7 +39,6 @@
   border-radius: 10px;
   width: 100%;
   border: 0.5px solid #9a9a9aaf;
-  
 }
 .search-Box input {
   width: 90%;
@@ -67,57 +69,54 @@
   width: 16%;
 }
 .login-Box > i {
-
   /* font-size: 30px; */
   margin: 0 15px;
   cursor: pointer;
-
 }
-.login-Box>i:hover{
- transform: scale(1.2);
- color: rgb(26, 182, 213);
-text-shadow:0 6px 1px red ;
- 
+.login-Box > i:hover {
+  transform: scale(1.2);
+  color: rgb(26, 182, 213);
+  text-shadow: 0 6px 1px red;
 }
 
-.menuBox>ul{
-/* background: red; */
+.menuBox > ul {
+  /* background: red; */
   list-style-type: none;
   margin: 0 auto;
   /* padding: 0; */
-  
 }
-.menuBox>ul>li>a{
+.menuBox > ul > li > a {
   padding: 0 5px;
   font-family: "yekanb";
   /* border-right:0.5px solid gray; ;
   border-left:0.5px solid gray; ; */
-margin-right: 15px;
-color: #333333;
-padding: 4px;
-border-radius: 6px;
-transition: all 0.3s;
-
+  margin-right: 15px;
+  color: #333333;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.3s;
 }
-.menuBox>ul>li>a:hover{
+.menuBox > ul > li > a:hover {
   background-color: #333333;
   color: white;
 }
 /* this part is menu and search box Mobile */
-.icon-sinup{
+.icon-sinup {
   padding-top: 5px;
- 
 }
-.icon-sinup>i{
-  margin-inline:12px 0 ;
-  transition: all 0.3s linear; 
+.icon-sinup > i {
+  margin-inline: 12px 0;
+  transition: all 0.3s linear;
 }
-.icon-sinup>i:hover{
-transform: scale(1.2); 
+.icon-sinup > i:hover {
+  transform: scale(1.2);
 }
 
-
-
-.imgq{
+.imgq {
   width: 100px;
+}
+.intro-text-mobile{
+  font-size: 14px;
+
+
 }

@@ -1,4 +1,10 @@
 
+@media screen and (max-width: 767px) {
+    .intro-text{
+  padding: 0.7rem 1rem;
+
+    }
+}
 @media screen and (min-width: 992px) {
     .menuBox>ul>li>a{
 margin-right: 33px;
