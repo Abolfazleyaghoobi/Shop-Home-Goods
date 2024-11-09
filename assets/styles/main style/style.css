@@ -138,12 +138,13 @@
 
   color: #545454;
 }
+/* this part is menu itmes mobile */
 .names-product{
   display: flex;
 padding: 0.5rem 0rem;
 flex-direction: column;
-align-items: flex-start;
-align-self: stretch;
+transform: translateY(-140%);
+opacity: 0;
 }
 .u-none{
   list-style-type: none;
