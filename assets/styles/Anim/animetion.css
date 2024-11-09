@@ -1,0 +1,26 @@
+icon-menu-anim{
+    width: 34px;
+    height: 4px;
+    background: rgb(80, 77, 77);
+   margin: 4px 0;
+}
+#lineOne,#lineTwo{
+
+    transform-origin: center;
+}
+#lineOne{
+   top: 12px;
+   transform: rotate(52deg);
+   
+}
+#lineTwo{
+top:11px;
+    transform: rotate(-52deg);
+
+}
+#lineThree{
+bottom: 4px;
+    /* display: none; */
+    /* background: red; */
+
+}
