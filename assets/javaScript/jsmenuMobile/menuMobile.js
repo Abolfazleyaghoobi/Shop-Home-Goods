@@ -1,5 +1,30 @@
 let nameProduct=document.querySelector(".names-product");
 let listIcon=document.querySelector("#list");
+let iconMenuMobile=document.querySelector(".icon-menu-mobile")
+let lineOne=document.getElementById("lineOne");
+let lineTwo=document.getElementById("lineTwo");
+let lineThree=document.getElementById("lineThree");
+console.log(iconMenuMobile.children.length);
+lineOne.style.top="-1px";
+// this part is 
+let lineAnime=gsap.timeline({
+  paused:true
+})
+lineAnime
+.from([lineOne,lineTwo],{
+  rotate:0,
+  duration:1
+})
+
+.to(lineThree,{
+  opacity:0
+},"-=1")
+
+let lineAnimeFalage=false;
+
+
+
+// this  part is menu site 
 let mainTL = false;
 let animationMenu=gsap.timeline({
     paused:true
@@ -12,7 +37,7 @@ animationMenu.to(nameProduct, {
 
 
   });
- listIcon.addEventListener("click", (e) => {
+  iconMenuMobile.addEventListener("click", (e) => {
   
       if (!mainTL) {
         mainTL = true;
@@ -21,7 +46,15 @@ animationMenu.to(nameProduct, {
         mainTL = false;
     animationMenu.reverse();
       }
-    
+   
+      if (!lineAnimeFalage) {
+        lineAnimeFalage = true;
+        lineAnime.play();
+      } else {
+        lineAnimeFalage = false;
+    lineAnime.reverse();
+      }
+
   });
   
 window.addEventListener('resize', function() {
@@ -32,3 +65,6 @@ mainTL = false;
 animationMenu.reverse();
   }
   });
+    
+    
+    
