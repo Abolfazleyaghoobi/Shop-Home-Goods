@@ -37,7 +37,8 @@ animationMenu.to(nameProduct, {
 
 
   });
-  iconMenuMobile.addEventListener("click", (e) => {
+  iconMenuMobile.addEventListener("click", () => {
+  
   
       if (!mainTL) {
         mainTL = true;
