@@ -4,6 +4,9 @@
     background: rgb(80, 77, 77);
    margin: 4px 0;
 }
+#lineOne,#lineThree,#lineTwo{
+    background-color: rgb(118, 116, 116);
+}
 #lineOne,#lineTwo{
 
     transform-origin: center;

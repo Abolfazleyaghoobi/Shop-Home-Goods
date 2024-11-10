@@ -32,7 +32,7 @@ let animationMenu=gsap.timeline({
 animationMenu.to(nameProduct, {
     opacity: 1,
     y: 0,
-    ease: "back.out(2)",
+    ease: "back.out(1)",
    duration:.9
 
 
@@ -63,6 +63,8 @@ window.addEventListener('resize', function() {
 nameProduct.style.transform = 'translateY(-140%)';
 mainTL = false;
 animationMenu.reverse();
+lineAnimeFalage = false;
+lineAnime.reverse();
   }
   });
     

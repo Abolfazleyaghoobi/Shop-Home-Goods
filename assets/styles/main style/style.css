@@ -118,11 +118,10 @@
   font-size: 14px;
 }
 
-.icon-menu-mobile>i{
+.icon-menu-mobile > i {
   font-size: 37px;
 }
 .search-box-mobile {
-
   width: 85%;
   border: 0.5px solid #9a9a9aaf;
   border-radius: 10px;
@@ -139,38 +138,39 @@
   color: #545454;
 }
 /* this part is menu itmes mobile */
-.names-product{
+.names-product {
   display: flex;
-padding: 0.5rem 0rem;
-flex-direction: column;
-transform: translateY(-140%);
-opacity: 0;
+  padding: 0.5rem 0rem;
+  flex-direction: column;
+  transform: translateY(-140%);
+  opacity: 0;
+  z-index: 1000;
+  right: 12px;
+  width: 35px;
 }
-.u-none{
+.u-none {
   list-style-type: none;
 }
-.u-none>li{
+.u-none > li {
   padding: 8px 0.5rem;
   margin: 5px 0;
-  
-
-
 }
-.u-none>li>a{
+.u-none > li > a {
   font-family: "yekanb";
-display: block;
-padding: 5px;
+  display: block;
+  padding: 5px;
   color: black;
-transition: all 0.1s linear; 
-border-radius: 5px;
+  transition: all 0.1s linear;
+  border-radius: 5px;
 }
-.u-none>li>a:hover{
+.u-none > li > a:hover {
   color: white;
   background: #000;
-
 }
 
-.fav-color{
-
-  background: #bcbcbc;
+.fav-color {
+  background-color: rgba(194, 194, 194, 0.501);
+  backdrop-filter: blur(2px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
